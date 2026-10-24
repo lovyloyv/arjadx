@@ -13,6 +13,10 @@ The scripts are copied as-is from the workspace used during the analysis and may
 - [`scripts/examine_dex.py`](scripts/examine_dex.py): Extracts `classes.dex` from the original APK and indexes its strings, types, fields, methods, and code offsets for inspection and repair.
 - [`scripts/repair_payload_tails.py`](scripts/repair_payload_tails.py): Uses the DEX index to replace malformed trailing array-data payloads with equal-length NOPs, recomputes the DEX checksums, and records the repairs.
 
+## Assets
+
+[`assets/`](assets/) contains screenshots and images used in the paper.
+
 ## Analysis DEX
 
 [`dex/classes.analysis.dex`](dex/classes.analysis.dex) is the patched first-stage DEX used for analysis. Its malformed trailing array-data payloads were replaced with equal-length NOPs and its checksums recomputed so JADX could decompile the wrapper's code.
