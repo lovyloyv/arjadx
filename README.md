@@ -1,6 +1,6 @@
 # ARJADX
 
-The paper for this repository is at: [A RAT that breaks JADX.]()
+The paper for this repository is at: [A RAT that breaks JADX.](https://lovy.sh/posts/rat-breaks-jadx-final/)
 
 This repository contains scripts and supporting artifacts from the analysis of an Android remote access trojan (RAT) hidden inside a fake Play Store wrapper. The analysis explores how malformed binary XML and unreachable DEX payloads disrupt JADX, how these structures can be normalized for inspection, and how the wrapper conceals an encrypted credit-card phishing RAT.
 
